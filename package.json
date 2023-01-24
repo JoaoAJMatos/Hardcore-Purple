@@ -1,0 +1,33 @@
+{
+  "name": "hardcore-purple",
+  "displayName": "Hardcore Purple",
+  "description": "A purple dark theme inspired by Shades of Purple",
+  "version": "1.0.0",
+  "icon": "img/icon.jpg",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "publisher": "JoaoAJMatos",
+  "license": "MIT",
+  "keywords": [
+    "themes",
+    "purple",
+    "dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoaoAJMatos/Hardcore-Purple"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "hardcore-purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hardcore-purple-color-theme.json"
+      }
+    ]
+  }
+}
